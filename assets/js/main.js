@@ -36,7 +36,7 @@ document.documentElement.addEventListener("click", function () {
 $('.slider_area').slick({
   dots: true,
   arrows: false,
-   autoplay: true,
+  autoplay: true,
   infinite: false,
   speed: 300,
   slidesToShow: 1,
@@ -44,14 +44,89 @@ $('.slider_area').slick({
 
 });
 
+$('.banslider').slick({
+  dots: false,
+  arrows: true,
+  // autoplay: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  adaptiveHeight: true,
+  prevArrow: "<button type='button' class='slick-prev'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+  nextArrow: "<button type='button' class='slick-next'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+});
+
+
+// product thumbnail
+
+
+
 
 // navbar
 const menubar = document.querySelector('.hamburger-menu');
 const menuList = document.querySelector('.menu_list');
 const navbar = document.querySelector('.navbar');
-menubar.onclick = ()=>{
-    menubar.classList.toggle("active");
-	menuList.classList.toggle("active");
+menubar.onclick = () => {
+  menubar.classList.toggle("active");
+  menuList.classList.toggle("active");
 
 }
+
+
+
+// timer
+
+
+
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function () {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+
+  $('.days').html(days);
+  $('.hours').html(hours);
+  $('.minutes').html(minutes);
+  $('.seconds').html(seconds);
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+
+
+// load more
+
+// $(function () {
+//   $(".product_item").slice(0, 3).show();
+//   $("body").on('click touchstart', '.load-more', function (e) {
+//     e.preventDefault();
+//     $(".product_item:hidden").slice(0, 3).slideDown();
+//     if ($(".product_item:hidden").length == 0) {
+//       $(".load-more").css('visibility', 'hidden');
+//     }
+//     $('html,body').animate({
+//       scrollTop: $(this).offset().top
+//     }, 1000);
+//   });
+// });
+
+
+
 
