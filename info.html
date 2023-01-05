@@ -274,45 +274,168 @@
 
 <!-- product info -->
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="product_slider_images">
+<div class="product_info_wraper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ">
+        <div class="product_slider_images">
+          
+          <!-- Flickity HTML init -->
+          <div class="carousel carousel-main" data-flickity='{"pageDots": false }'>
+            <div class="carousel-cell"><img src="assets/img/productslider/product1.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room1.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room2.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room3.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room4.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room2.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room3.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room4.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room2.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room4.jpg"/></div>  
+          </div>
+          
+          <div class="carousel carousel-nav"
+            data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false,"prevNextButtons": false }'>
+            <div class="carousel-cell"><img src="assets/img/productslider/product1.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room1.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room2.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room3.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room4.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room2.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room3.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room4.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room2.jpg"/></div>
+            <div class="carousel-cell"><img src="assets/img/productslider/room4.jpg"/></div>
+          </div>
+          
         
-        <!-- Flickity HTML init -->
-        <div class="carousel carousel-main" data-flickity='{"pageDots": false }'>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>  
+   
         </div>
-        
-        <div class="carousel carousel-nav"
-          data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
-          <div class="carousel-cell"><img src="assets/img/product1.jpg"/></div>
+      </div>
+      <div class="col-md-6">
+        <div class="product_information_area">
+          <div class="main_product_title">
+            <h1>Appartement Costa del Sol-Spain-</h1>
+          </div>
+          <div class="tic_of_price">
+            <h4 class="price_tic">Ticket Price :    <img src="assets/img/rupee 1.png" alt=""class="ml-lg-2"><span>10,000</span></h4>
+          </div>
+          <div class="promo_area">
+            <h3>Add a Promo</h3>
+            <div class="promo_form">
+              <form action="">
+                <div class="promo_input_wrapper">
+                  <input type="text" placeholder="Enter Your Promo Code">
+                  <button class="promobtn">Apply</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="quantity">
+            <h3>Quantity</h3>
+            <div class="col-md-4 mb-3">
+              <div class="qty-container">
+                  <button class="qty-btn-minus btn-light" type="button"><i class="fa fa-minus"></i></button>
+                <input type="text" name="qty" value="0" class="input-qty"/>
+                  <button class="qty-btn-plus btn-light" type="button"><i class="fa fa-plus"></i></button>
+              </div>
+          </div>
+          </div>
+          <div class="btn_area mt-5">
+            <a href="#" class="btn2">Add To Cart</a>
+            <a href="#" class="btn2">Buy Ticket</a>
+          </div>
+          <div class="product_time">
+            <div class="time_left_title">
+              <h3 class=""><img src="assets/img/time.png" alt="">Timeleft</h3>
+            </div>
+            <div id="coundown" class="countdown product_timeleftwrap">
+              <div class="product_timeleft">
+                <div id="days" class="time_left_style days">000
+                </div>
+                <br><span>Days</span>
+              </div>
+              <div class="product_timeleft">
+                <div id="hours" class="time_left_style hours">000
+                </div>
+                <br><span>Hours</span>
+              </div>
+              <div class="product_timeleft">
+                <div id="minutes" class="time_left_style minutes">000
+                </div>
+                <br><span>Mins</span>
+              </div>
+              <div class="product_timeleft">
+                <div id="seconds" class="time_left_style seconds">000
+                </div>
+                <br><span>Sec</span>
+              </div>
+            </div>
+          </div>
+          <div class="ticket_sold">
+            <div class="ticket_sold_title">
+              <h3><span><img src="assets/img/9121436 1.png" alt=""></span> Ticket Slod Already </h3>
+            </div>
+            <div class="progressarea">       
+  <div data-progress="50"></div>
+  <p class="text-center"><strong>50%</strong></p>
+  </div>
+            </div>
+          </div>
         </div>
-        
-      
- 
+      </div>
+      <div class="row">
+        <div class="description_wrapper">
+          <div class="des_title">
+            <h3>DESCRIPTION</h3>
+          </div>
+          <div class="description_item">
+            <div class="describe_heading">
+              <h4>Appartement Costa del Sol-Spain-</h4>
+            </div>
+            <p class="description_para">
+              De Super Soco TC is een volledig elektrische scooter van La Souris. Uitgerust met de beste en nieuwste technologieën van deze tijd, viert de Super SOCO TC de wedergeboorte van de klassieker en initieert tegelijkertijd een nieuw tijdperk van de elektrische mobiliteit. Na vele jaren van ontwikkeling en samenwerking met grote spelers van over de hele wereld is er eindelijk een elektrische scooter gemaakt.</p>
+          </div>
+         <hr>
+          <div class="description_item">
+            <div class="describe_heading">
+              <h4>De Super SOCO TC is standaard voorzien van:</h4>
+            </div>
+           <div class="bullet_points">
+            <li><span><i class="fas fa-circle"></i></span>LED-verlichting</li>
+            <li><span><i class="fas fa-circle"></i></span>Bluetooth voorbereiding</li>
+            <li><span><i class="fas fa-circle"></i></span>Anti-diefstal systeem</li>
+            <li><span><i class="fas fa-circle"></i></span>Start-Stop</li>
+            <li><span><i class="fas fa-circle"></i></span>Bosch 3000 watt elektromotor</li>
+           </div>
+          </div>
+          <hr>
+          <div class="description_item">
+            <div class="describe_heading">
+              <h4>100% Elektrisch</h4>
+            </div>
+         <p class="description_para">
+          De Super SOCO TC is 100% elektrisch. Er is geen verbranding, dus ook geen uitstoot. Super milieuvriendelijk. De BOSCH electromotor
+ heeft een vermogen van 3kW. Tevens is het koppel vele malen hoger, zodat je ook met twee personen éénvoudig optrekt.
+         </p>
+          </div>
+          <hr>
+          <div class="description_item">
+            <div class="describe_heading">
+              <h4>Geschikt voor extra passagier</h4>
+            </div>
+         <p class="description_para">
+          De Super SOCO TC is geschikt voor elk type bestuurder, en heeft uitklapbare side steps voor een passagier.
+         </p>
+          </div>
+          <hr>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+
 
 
 

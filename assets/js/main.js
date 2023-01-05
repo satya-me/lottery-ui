@@ -130,3 +130,50 @@ var x = setInterval(function () {
 
 
 
+var buttonPlus  = $(".qty-btn-plus");
+var buttonMinus = $(".qty-btn-minus");
+
+var incrementPlus = buttonPlus.click(function() {
+  var $n = $(this)
+  .parent(".qty-container")
+  .find(".input-qty");
+  $n.val(Number($n.val())+1 );
+});
+
+var incrementMinus = buttonMinus.click(function() {
+  var $n = $(this)
+  .parent(".qty-container")
+  .find(".input-qty");
+  var amount = Number($n.val());
+  if (amount > 0) {
+    $n.val(amount-1);
+  }
+});
+
+
+
+
+// progress area
+
+window.onload = function () {
+  if (
+    document.querySelectorAll(".progressarea").length > 0 &&
+    document.querySelectorAll(".progressarea [data-progress]").length > 0
+  ) {
+    // Get all elements with 'data-progress' attribute and run the 'AnimateProgress' funcion with each one
+    document
+      .querySelectorAll(".progressarea [data-progress]")
+      .forEach((x) => AnimateProgress(x));
+  }
+};
+
+function AnimateProgress(el) {
+  // Get the element that came as parameter and add the class 'animated-progress' on it
+  el.className = "animate-progress";
+  // Set the attribute 'style' of this element with the custom attribute '--animate-progress' and the value of 'data-progress' as the width value
+  el.setAttribute(
+    "style",
+    `--animate-progress:${el.getAttribute("data-progress")}%;`
+  );
+  // After this the CSS make its magic
+}
