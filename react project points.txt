@@ -1,0 +1,5 @@
+1.slider dots will be fixed
+2.dropdown create using css
+3.error msg style
+4.single card will be designed(bcz it will be populated using react)
+5.dynamic data which will be come form backend so try to be hardcode that sec

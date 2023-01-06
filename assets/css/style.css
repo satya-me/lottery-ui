@@ -968,9 +968,8 @@ transition: 0.5s ease-in;
 	font-size: 2rem;
 }
 
-.ticket_price h4 img {
-	width: 15px;
-	margin: 0.5rem;
+.ticket_price h4 span {
+margin: 0 0.5rem;
 }
 
 
@@ -1065,9 +1064,15 @@ transition: 0.5s ease-in;
 	
 }
 
-.product_price img{
+/* .product_price img{
 width: 15px;
 margin: 0.5rem;
+} */
+
+.currencysymbol{
+	color: var(--white);
+	font-size: 2rem;
+
 }
 
 .product_title h2 {
@@ -1702,6 +1707,19 @@ font-weight: var(--secondary-font);
 	font-family: var(--primary-font);
 }
   
+/* order list */
+
+.body_container{
+	background: #FFEACA;
+	height: 100%;
+}
+
+
+
+
+
+
+
 
 
 /* =======================media quries================== */
