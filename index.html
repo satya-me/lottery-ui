@@ -30,31 +30,42 @@
         </div>
       </div>
       <div class="right_menu">
-        <div class="currency_menu">
-          <button class="btn1" id="btn">
-            <span><img src="assets/img/currency.png" alt="" class="mr-2"></span> currency
-            <i class="bx bx-chevron-down" id="arrow"></i>
-          </button>
-
-          <div class="dropdown" id="dropdown">
-            <a href="#">
-              FCFA
-            </a>
-            <!-- <a href="#">
-              XAF
-            </a> -->
-            <a href="#">
-              XOF
-            </a>
-            <a href="#">
-              USD
-            </a>
-            <a href="#">
-              Euro
-            </a>
-            <a href="#">
-              Naira
-            </a>
+        <div class="crncy_menu">
+          <input type="checkbox" id="drop-3" hidden>
+          <label class="dropHeader dropHeader-3 droplabel" for="drop-3"><span><img src="assets/img/currency.png" alt=""
+                class=""></span> currency
+            <i class="fas fa-chevron-down fa-sm"></i></label>
+          <div class="list list-3">
+            <div class="item">
+              <a href="#">
+                FCFA
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                XAF
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                XOF
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                USD
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                Euro
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                Naira
+              </a>
+            </div>
           </div>
         </div>
         <div class="sign">
@@ -83,14 +94,15 @@
         </div>
         <div class="right_nav">
           <div class="cart">
-            <a href="orderlist.html" class="cartbtn"><i class="fas fa-shopping-cart"></i> <span class="label">23</span></a>
+            <a href="orderlist.html" class="cartbtn"><i class="fas fa-shopping-cart"></i> <span
+                class="label">23</span></a>
 
           </div>
-          <div class="user-menu-wrap">
-
-            <a class="mini-photo-wrapper" href="#"><i class="fas fa-user"></i></a>
-
-
+       <div class="user_menu">
+     
+          <input type="checkbox" id="drop-4" hidden>
+          <label class="dropHeader dropHeader-4 droplabel" for="drop-4"><i class="fa-solid fa-user"></i></label>
+          <div class="user_menulist list-4">
             <div class="menu-container">
               <ul class="user-menu">
                 <div class="profile-highlight">
@@ -126,6 +138,8 @@
               </ul>
             </div>
           </div>
+     
+       </div>
           <div class="hamburger-menu" id="hamburger-menu">
             <div class="menu-bar1"></div>
             <div class="menu-bar2"></div>
@@ -255,586 +269,535 @@
 
 
 
-<!-- product area -->
+    <!-- product area -->
 
-<div class="prodcut_wrapper">
-  <div class="one_row">
-   
-    <div class="container">
-      <div class="row ">
-        <div class="first_row_title">
-          <h2>Home Lottery</h2>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/product1.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
-                </div>
-              </div>
-            </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>10,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Appartement Costa del Sol-Spain </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
-                    </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
-                    </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
-                  </div>
-                </div>
-              </div>
-              <div class="product_action">
-                <a href="info.html" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/product1.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
-                </div>
-              </div>
-            </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Appartement Costa del Sol-Spain </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
-                    </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
-                    </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
-                  </div>
-                </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/product1.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
-                </div>
-              </div>
-            </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Appartement Costa del Sol-Spain </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
-                    </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
-                    </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
-                  </div>
-                </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="prodcut_wrapper">
+      <div class="one_row">
 
+        <div class="container">
+          <div class="row ">
+            <div class="first_row_title">
+              <h2>Home Lottery</h2>
+            </div>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/product1.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>10,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Appartement Costa del Sol-Spain </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="info.html" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/product1.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Appartement Costa del Sol-Spain </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4 product_item">
+              <div class="viewall">
+                <div class="viewall_content ">
+                  <h2>Best of <br> Electronics</h2>
+                  <button class="btn2 mt-2">Viewall</button>
+                </div>
+             
+              <img src="assets/img/viewmorecard.png" alt="" class="img-fluid">
+              </div>
+            </div>
 
-        <!-- car bike -->
-        
-        <div class="divider"></div>
+            <!-- car bike -->
 
-        <div class="first_row_title">
-          <h2>Cars & Bikes</h2>
-        </div>
-      
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/car1.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
+            <div class="divider"></div>
+
+            <div class="first_row_title">
+              <h2>Cars & Bikes</h2>
+            </div>
+
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/car1.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">5,000</h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">5,000</h3>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Audi </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Audi </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/car2.jpg" alt="" class="img-fluid ">
                   </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
                     </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
                     </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
                   </div>
                 </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/car2.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
-                </div>
-              </div>
-            </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Royal Enfiled </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
                   </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
-                    </div>
-                    <br><span>Hours</span>
+                  <div class="product_title">
+                    <h2>Royal Enfiled </h2>
                   </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
-                    </div>
-                    <br><span>Mins</span>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
                   </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
                     </div>
-                    <br><span>Sec</span>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/car4.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Appartement Costa del Sol-Spain </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/car4.jpg" alt="" class="img-fluid ">
                   </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
                     </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
                     </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
                   </div>
                 </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Appartement Costa del Sol-Spain </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      
 
 
-        <!-- stydy travel -->
 
-        <div class="divider"></div>
+            <!-- stydy travel -->
 
-        <div class="first_row_title">
-          <h2> Study abroad or travel abroad</h2>
-        </div>
-      
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/st1.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
+            <div class="divider"></div>
+
+            <div class="first_row_title">
+              <h2> Study abroad or travel abroad</h2>
+            </div>
+
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/st1.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">5,000</h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">5,000</h3>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Study in Oxford </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Study in Oxford </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/st2.jpg" alt="" class="img-fluid ">
                   </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
                     </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
                     </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
                   </div>
                 </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/st2.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
-                </div>
-              </div>
-            </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Win Chance to travel abroad</h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
                   </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
-                    </div>
-                    <br><span>Hours</span>
+                  <div class="product_title">
+                    <h2>Win Chance to travel abroad</h2>
                   </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
-                    </div>
-                    <br><span>Mins</span>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
                   </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
                     </div>
-                    <br><span>Sec</span>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 product_item">
-          <div class="product_item_one">
-            <div class="product_img">
-              <div class="pro_img">
-                <img src="assets/img/st3.jpg" alt="" class="img-fluid ">
-              </div>
-              <div class="label_area">
-                <div class="label_tag_img">
-                  <img src="assets/img/label.png" alt="" class="img-fluid">
-                </div>
-                <div class="label_content">
-                  <h3 class="currencysymbol">€</h3>
-                  <h3 class="price">10,000</h3>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="product_content">
-              <div class="product_price">
-                <h3><span>€</span>5,000</h3>
-              </div>
-              <div class="product_title">
-                <h2>Win chance to tour </h2>
-              </div>
-              <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-              <div class="game_number">
-                <h4>Game-1</h4>
-              </div>
-              <div class="time_left">
-                <div class="time_left_title">
-                  <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                </div>
-                <div id="coundown" class="countdown">
-                  <div class="timeleftarea">
-                    <div id="days" class=" days">000
-                    </div>
-                    <br><span>Days</span>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/st3.jpg" alt="" class="img-fluid ">
                   </div>
-                  <div class="timeleftarea">
-                    <div id="hours" class=" hours">000
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
                     </div>
-                    <br><span>Hours</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="minutes" class=" minutes">000
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
                     </div>
-                    <br><span>Mins</span>
-                  </div>
-                  <div class="timeleftarea">
-                    <div id="seconds" class=" seconds">000
-                    </div>
-                    <br><span>Sec</span>
                   </div>
                 </div>
-              </div>
-              <div class="product_action">
-                <a href="" class="btn2">Info</a>
-                <a href="" class="btn2">Buy Ticket</a>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Win chance to tour </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
 
 
@@ -845,7 +808,7 @@
             <div class="first_row_title">
               <h2>computers & phones</h2>
             </div>
-          
+
             <div class="col-md-4 product_item">
               <div class="product_item_one">
                 <div class="product_img">
@@ -1032,322 +995,323 @@
 
 
 
-               <!-- cosmetic -->
+            <!-- cosmetic -->
 
-               <div class="divider"></div>
+            <div class="divider"></div>
 
-               <div class="first_row_title">
-                 <h2>cosmetics</h2>
-               </div>
-             
-               <div class="col-md-4 product_item">
-                 <div class="product_item_one">
-                   <div class="product_img">
-                     <div class="pro_img">
-                       <img src="assets/img/cos1.jpg" alt="" class="img-fluid ">
-                     </div>
-                     <div class="label_area">
-                       <div class="label_tag_img">
-                         <img src="assets/img/label.png" alt="" class="img-fluid">
-                       </div>
-                       <div class="label_content">
-                        <h3 class="currencysymbol">€</h3>
-                         <h3 class="price">5,000</h3>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="product_content">
-                     <div class="product_price">
-                       <h3><span>€</span>5,000</h3>
-                     </div>
-                     <div class="product_title">
-                       <h2>Madox Body Lotions</h2>
-                     </div>
-                     <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-                     <div class="game_number">
-                       <h4>Game-1</h4>
-                     </div>
-                     <div class="time_left">
-                       <div class="time_left_title">
-                         <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                       </div>
-                       <div id="coundown" class="countdown">
-                         <div class="timeleftarea">
-                           <div id="days" class=" days">000
-                           </div>
-                           <br><span>Days</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="hours" class=" hours">000
-                           </div>
-                           <br><span>Hours</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="minutes" class=" minutes">000
-                           </div>
-                           <br><span>Mins</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="seconds" class=" seconds">000
-                           </div>
-                           <br><span>Sec</span>
-                         </div>
-                       </div>
-                     </div>
-                     <div class="product_action">
-                       <a href="" class="btn2">Info</a>
-                       <a href="" class="btn2">Buy Ticket</a>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-               <div class="col-md-4 product_item">
-                 <div class="product_item_one">
-                   <div class="product_img">
-                     <div class="pro_img">
-                       <img src="assets/img/cos2.jpg" alt="" class="img-fluid ">
-                     </div>
-                     <div class="label_area">
-                       <div class="label_tag_img">
-                         <img src="assets/img/label.png" alt="" class="img-fluid">
-                       </div>
-                       <div class="label_content">
-                        <h3 class="currencysymbol">€</h3>
-                         <h3 class="price">10,000</h3>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="product_content">
-                     <div class="product_price">
-                       <h3><span>€</span>5,000</h3>
-                     </div>
-                     <div class="product_title">
-                       <h2>Win Chance all cosmetics</h2>
-                     </div>
-                     <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-                     <div class="game_number">
-                       <h4>Game-1</h4>
-                     </div>
-                     <div class="time_left">
-                       <div class="time_left_title">
-                         <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                       </div>
-                       <div id="coundown" class="countdown">
-                         <div class="timeleftarea">
-                           <div id="days" class=" days">000
-                           </div>
-                           <br><span>Days</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="hours" class=" hours">000
-                           </div>
-                           <br><span>Hours</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="minutes" class=" minutes">000
-                           </div>
-                           <br><span>Mins</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="seconds" class=" seconds">000
-                           </div>
-                           <br><span>Sec</span>
-                         </div>
-                       </div>
-                     </div>
-                     <div class="product_action">
-                       <a href="" class="btn2">Info</a>
-                       <a href="" class="btn2">Buy Ticket</a>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-            
-                <div class="col-md-4 product_item">
-                 <div class="product_item_one">
-                   <div class="product_img">
-                     <div class="pro_img">
-                       <img src="assets/img/cos3.jpg" alt="" class="img-fluid ">
-                     </div>
-                     <div class="label_area">
-                       <div class="label_tag_img">
-                         <img src="assets/img/label.png" alt="" class="img-fluid">
-                       </div>
-                       <div class="label_content">
-                        <h3 class="currencysymbol">€</h3>
-                         <h3 class="price">10,000</h3>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="product_content">
-                     <div class="product_price">
-                       <h3><span>€</span>5,000</h3>
-                     </div>
-                     <div class="product_title">
-                       <h2>Win chance to tour </h2>
-                     </div>
-                     <h3 class="total_ticket">Total Ticket Available : 1456</h3>
-                     <div class="game_number">
-                       <h4>Game-1</h4>
-                     </div>
-                     <div class="time_left">
-                       <div class="time_left_title">
-                         <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
-                       </div>
-                       <div id="coundown" class="countdown">
-                         <div class="timeleftarea">
-                           <div id="days" class=" days">000
-                           </div>
-                           <br><span>Days</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="hours" class=" hours">000
-                           </div>
-                           <br><span>Hours</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="minutes" class=" minutes">000
-                           </div>
-                           <br><span>Mins</span>
-                         </div>
-                         <div class="timeleftarea">
-                           <div id="seconds" class=" seconds">000
-                           </div>
-                           <br><span>Sec</span>
-                         </div>
-                       </div>
-                     </div>
-                     <div class="product_action">
-                       <a href="" class="btn2">Info</a>
-                       <a href="" class="btn2">Buy Ticket</a>
-                     </div>
-                   </div>
-                 </div>
-               </div>
+            <div class="first_row_title">
+              <h2>cosmetics</h2>
+            </div>
 
-               <div class="text-center ">
-                <button class="btn3">Load More</button>
-               </div>
-       
-     
-   
-    </div>
-  </div>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/cos1.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">5,000</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Madox Body Lotions</h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/cos2.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Win Chance all cosmetics</h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-</div>
+            <div class="col-md-4 product_item">
+              <div class="product_item_one">
+                <div class="product_img">
+                  <div class="pro_img">
+                    <img src="assets/img/cos3.jpg" alt="" class="img-fluid ">
+                  </div>
+                  <div class="label_area">
+                    <div class="label_tag_img">
+                      <img src="assets/img/label.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="label_content">
+                      <h3 class="currencysymbol">€</h3>
+                      <h3 class="price">10,000</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="product_content">
+                  <div class="product_price">
+                    <h3><span>€</span>5,000</h3>
+                  </div>
+                  <div class="product_title">
+                    <h2>Win chance to tour </h2>
+                  </div>
+                  <h3 class="total_ticket">Total Ticket Available : 1456</h3>
+                  <div class="game_number">
+                    <h4>Game-1</h4>
+                  </div>
+                  <div class="time_left">
+                    <div class="time_left_title">
+                      <h3><img src="assets/img/992700 1.png" alt="">Timeleft</h3>
+                    </div>
+                    <div id="coundown" class="countdown">
+                      <div class="timeleftarea">
+                        <div id="days" class=" days">000
+                        </div>
+                        <br><span>Days</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="hours" class=" hours">000
+                        </div>
+                        <br><span>Hours</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="minutes" class=" minutes">000
+                        </div>
+                        <br><span>Mins</span>
+                      </div>
+                      <div class="timeleftarea">
+                        <div id="seconds" class=" seconds">000
+                        </div>
+                        <br><span>Sec</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_action">
+                    <a href="" class="btn2">Info</a>
+                    <a href="" class="btn2">Buy Ticket</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center ">
+              <button class="btn3">Load More</button>
+            </div>
 
 
-<!-- trused payment -->
 
-<div class="trustedpayemt">
-  <div class="sectitle">
-    <h1>Trusted  Payment Method</h1>
-  </div>
-  <div class="container">
-<div class="row justify-content-center">
-  <div class="col-lg-2 col-md-2">
-    <div class="payment_item">
-      <img src="assets/img/pay (3).png" alt="">
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-2">
-    <div class="payment_item">
-      <img src="assets/img/pay (4).png" alt="">
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-2">
-    <div class="payment_item">
-      <img src="assets/img/pay (5).png" alt="">
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-2">
-    <div class="payment_item">
-      <img src="assets/img/pay (2).png" alt="">
-    </div>
-  </div>
-  <div class="col-lg-2 col-md-2">
-    <div class="payment_item">
-      <img src="assets/img/pay (1).png" alt="">
-    </div>
-  </div>
-</div>
-  </div>
-</div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- trused payment -->
+
+      <div class="trustedpayemt">
+        <div class="sectitle">
+          <h1>Trusted Payment Method</h1>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-2">
+              <div class="payment_item">
+                <img src="assets/img/pay (3).png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="payment_item">
+                <img src="assets/img/pay (4).png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="payment_item">
+                <img src="assets/img/pay (5).png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="payment_item">
+                <img src="assets/img/pay (2).png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="payment_item">
+                <img src="assets/img/pay (1).png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
   </main>
 
 
-<footer class="footer">
-<div class="container">
-  <div class="footer_top">
-    <div class="footitem">
-      <h4 class="foot_title">Information</h4>
-      <ul class="footlinks">
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>About us</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Find Us</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Terms & Condition</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Privacy Policy</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Cookies Policy</a></li>
-      </ul>
-    </div>
-    <div class="footitem">
-      <h4 class="foot_title">Help</h4>
-      <ul class="footlinks">
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Play</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Deposite</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Betting Rule</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Withdraw</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Register</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Balance Check</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Help Center</a></li>
-      </ul>
-    </div>
-    <div class="footitem">
-      <h4 class="foot_title">Partner</h4>
-      <ul class="footlinks">
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Agents</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Influencer</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Affiliate Partner</a></li>
-       
-      </ul>
-    </div>
-    <div class="footitem">
-      <h4 class="foot_title">Career</h4>
-      <ul class="footlinks">
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Job</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Work With Us</a></li>
-        <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Apply</a></li>
-       
-      </ul>
-    </div>
-  
-    <div class="footitem">
-    <div class="partner_num">
-      <h3>21 +</h3>
-    </div>
-    </div>
-  </div>
-  <hr class="hr">
-<div class="footer_bottom">
-<ul class="social mt-5">
-  <li><a href="#" class="soci_btn"><img src="assets/img/social (1).png" alt=""></a></li>
-  <li><a href="#" class="soci_btn"><img src="assets/img/social (2).png" alt=""></a></li>
-  <li><a href="#" class="soci_btn"><img src="assets/img/social (3).png" alt=""></a></li>
-  <li><a href="#" class="soci_btn"><img src="assets/img/social (4).png" alt=""></a></li>
-  <li><a href="#" class="soci_btn"><img src="assets/img/social (5).png" alt=""></a></li>
-  <li><a href="#" class="soci_btn"><img src="assets/img/social (6).png" alt=""></a></li>
-</ul>
-<div class="copywriter">
-  <h6>
-    Copyright © 2022
-     <span><a href="" class="copy"> ES-Play Corporation</a></span> </h6>
-  
-</div>
-</div>
-</div>
-  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_top">
+        <div class="footitem">
+          <h4 class="foot_title">Information</h4>
+          <ul class="footlinks">
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>About us</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Find Us</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Terms & Condition</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Privacy Policy</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Cookies Policy</a></li>
+          </ul>
+        </div>
+        <div class="footitem">
+          <h4 class="foot_title">Help</h4>
+          <ul class="footlinks">
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Play</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Deposite</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Betting Rule</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Withdraw</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>How to Register</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Balance Check</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footitem">
+          <h4 class="foot_title">Partner</h4>
+          <ul class="footlinks">
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Agents</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Influencer</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Affiliate Partner</a></li>
 
-</footer>
+          </ul>
+        </div>
+        <div class="footitem">
+          <h4 class="foot_title">Career</h4>
+          <ul class="footlinks">
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Job</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Work With Us</a></li>
+            <li><a href="#"><span><i class="fas fa-caret-right"></i></span>Apply</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footitem">
+          <div class="partner_num">
+            <h3>21 +</h3>
+          </div>
+        </div>
+      </div>
+      <hr class="hr">
+      <div class="footer_bottom">
+        <ul class="social mt-5">
+          <li><a href="#" class="soci_btn"><img src="assets/img/social (1).png" alt=""></a></li>
+          <li><a href="#" class="soci_btn"><img src="assets/img/social (2).png" alt=""></a></li>
+          <li><a href="#" class="soci_btn"><img src="assets/img/social (3).png" alt=""></a></li>
+          <li><a href="#" class="soci_btn"><img src="assets/img/social (4).png" alt=""></a></li>
+          <li><a href="#" class="soci_btn"><img src="assets/img/social (5).png" alt=""></a></li>
+          <li><a href="#" class="soci_btn"><img src="assets/img/social (6).png" alt=""></a></li>
+        </ul>
+        <div class="copywriter">
+          <h6>
+            Copyright © 2022
+            <span><a href="" class="copy"> ES-Play Corporation</a></span>
+          </h6>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </footer>
 
 
 
@@ -1361,7 +1325,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/custom.js"></script>
-  
+
 </body>
 
 </html>
